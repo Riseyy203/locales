@@ -117,6 +117,7 @@
     "form_choice": "Auswahl",
     "form_selection_label": "Auswahl",
     "form_info_title": "Formular-Antworten",
+    "form_info_desc": "Antworten, die der Nutzer vor dem Öffnen des Tickets abgegeben hat.",
     "closure_pending_desc": "Es ist bereits eine Schließungsanfrage ausstehend.",
     "closure_not_authorized_desc": "Du bist nicht berechtigt, die Schließung dieses Tickets anzufordern.",
     "closure_approved_title": "Schließung genehmigt",
@@ -209,68 +210,51 @@
     "default_welcome_title": "🎟️ Ticket geöffnet",
     "default_welcome_desc": "Willkommen {mention}!\nEin Teammitglied wird sich in Kürze um dich kümmern.\n\nBitte beschreibe dein Anliegen.",
     "default_welcome_footer": "Ticket #{ticketid} • {date}",
-
     "default_claim_title": "✋ Ticket übernommen",
     "default_claim_desc": "{staffmention} hat dieses Ticket übernommen.",
     "default_claim_footer": "Übernommen am {date}",
-
     "default_unclaim_title": "↩️ Ticket freigegeben",
     "default_unclaim_desc": "{staffmention} hat dieses Ticket freigegeben.",
     "default_unclaim_footer": "Freigegeben am {date}",
-
     "default_close_title": "🔒 Ticket geschlossen",
     "default_close_desc": "Dieses Ticket wurde geschlossen.\nNutze **Wieder öffnen**, falls du weitere Hilfe benötigst.",
     "default_close_footer": "Geschlossen am {date}",
-
     "default_reopen_title": "🔓 Ticket wieder geöffnet",
     "default_reopen_desc": "Dieses Ticket wurde wieder geöffnet. Ein Teammitglied wird sich in Kürze melden.",
     "default_reopen_footer": "Wieder geöffnet am {date}",
-
     "default_delete_title": "🗑️ Ticket gelöscht",
     "default_delete_desc": "Dieser Kanal wird in **5 Sekunden** gelöscht.",
     "default_delete_footer": "Gelöscht am {date}",
-
     "default_closure_request_title": "📋 Schließung angefragt",
     "default_closure_request_desc": "{mention} hat die Schließung dieses Tickets angefragt.",
     "default_closure_request_footer": "Angefragt am {date}",
-
     "default_feedback_title": "⭐ Wie war dein Support?",
     "default_feedback_desc": "Bitte bewerte deine Erfahrung über die Buttons unten.",
     "default_feedback_footer": "Ticket #{ticketid}",
-
     "default_user_left_title": "👤 Ticket-Ersteller hat den Server verlassen",
     "default_user_left_desc": "{user} hat den Server verlassen.",
     "default_user_left_footer": "Ticket #{ticketid}",
-
     "default_form_data_title": "📋 Formular-Antworten",
     "default_form_data_desc": "Antworten, die der Nutzer vor dem Öffnen des Tickets abgegeben hat.",
-    "ticket.form_info_desc": "Antworten, die der Nutzer vor dem Öffnen des Tickets abgegeben hat.",
     "default_form_data_footer": "Ticket #{ticketid}",
-
     "default_prompt_title": "🎟️ Ticket öffnen",
     "default_prompt_desc": "Wähle eine Kategorie aus dem Dropdown-Menü aus.",
     "default_prompt_footer": "{server} • Support",
-
     "default_log_open_title": "🎟️ Ticket geöffnet",
     "default_log_open_desc": "Ein neues Ticket wurde von {mention} geöffnet.",
     "default_log_open_footer": "Ticket #{ticketid} • {date}",
-
     "default_log_close_title": "🔒 Ticket geschlossen",
     "default_log_close_desc": "Ticket #{ticketid} wurde von {user} geschlossen.",
     "default_log_close_footer": "{date}",
-
     "default_log_reopen_title": "🔓 Ticket wieder geöffnet",
     "default_log_reopen_desc": "Ticket #{ticketid} wurde von {user} wieder geöffnet.",
     "default_log_reopen_footer": "{date}",
-
     "default_log_delete_title": "🗑️ Ticket gelöscht",
     "default_log_delete_desc": "Ticket #{ticketid} wurde von {user} dauerhaft gelöscht.",
     "default_log_delete_footer": "{date}",
-
     "default_log_claim_title": "✋ Ticket übernommen",
     "default_log_claim_desc": "Ticket #{ticketid} wurde von {staffmention} übernommen.",
     "default_log_claim_footer": "{date}",
-
     "default_log_unclaim_title": "↩️ Ticket freigegeben",
     "default_log_unclaim_desc": "Ticket #{ticketid} wurde von {staffmention} freigegeben.",
     "default_log_unclaim_footer": "{date}"
@@ -315,35 +299,28 @@
     "default_verify_title": "Verifizierung erforderlich",
     "default_verify_desc": "Hallo {mention}!\n\nUm **{server}** beizutreten, verifiziere dich bitte.\n\nVerbleibende Zeit: {timeleft}",
     "default_verify_footer": "Verifizierung • {server}",
-
     "default_success_title": "Erfolgreich verifiziert!",
     "default_success_desc": "Willkommen {user}! 🎉\nDu wurdest erfolgreich verifiziert.\nViel Spaß auf {server}!",
     "default_success_footer": "Leyno Bot • Verifiziert",
-
     "default_failed_title": "Verifizierung fehlgeschlagen",
     "default_failed_desc": "Deine Antwort war falsch, {mention}.\nBitte versuche es erneut.\n\nVerbleibende Versuche: {attempts}",
     "default_failed_footer": "Verifizierung • {server}",
-
     "default_timeout_title": "Verifizierung abgelaufen",
     "default_timeout_desc": "Hallo {mention}, deine Verifizierungszeit ist abgelaufen.",
     "default_timeout_footer": "Verifizierung • {server}",
-
     "default_already_title": "Bereits verifiziert",
     "default_already_desc": "Du bist bereits auf **{server}** verifiziert, {mention}!",
     "default_already_footer": "Verifizierung • {server}"
   },
   "welcome": {
     "fallback": "Willkommen {mention} auf **{server}**!",
-
     "default_author": "{server} • Willkommen",
     "default_title": "Willkommen {user}!",
     "default_description": "Hey {mention}, willkommen auf **{server}**!\nDu bist unser {count}. Mitglied 🎉",
     "default_footer": "Mitglied #{count} • {server}"
   },
-
   "leave": {
     "fallback": "**{username}** hat **{server}** verlassen.",
-
     "default_author": "{server} • Auf Wiedersehen",
     "default_title": "Tschüss {user}!",
     "default_description": "**{user}** hat **{server}** verlassen.\nWir haben jetzt {count} Mitglieder.",

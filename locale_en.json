@@ -117,6 +117,7 @@
     "form_choice": "Choice",
     "form_selection_label": "Selection",
     "form_info_title": "Form Responses",
+    "form_info_desc": "Answers submitted by the user before the ticket was opened.",
     "closure_pending_desc": "A close request is already pending.",
     "closure_not_authorized_desc": "You are not authorized to request closure of this ticket.",
     "closure_approved_title": "Closure Approved",
@@ -209,68 +210,51 @@
     "default_welcome_title": "🎟️ Ticket Opened",
     "default_welcome_desc": "Welcome {mention}!\nA team member will be with you shortly.\n\nPlease describe your issue.",
     "default_welcome_footer": "Ticket #{ticketid} • {date}",
-
     "default_claim_title": "✋ Ticket Claimed",
     "default_claim_desc": "{staffmention} has taken over this ticket.",
     "default_claim_footer": "Claimed on {date}",
-
     "default_unclaim_title": "↩️ Ticket Unclaimed",
     "default_unclaim_desc": "{staffmention} has unclaimed this ticket.",
     "default_unclaim_footer": "Unclaimed on {date}",
-
     "default_close_title": "🔒 Ticket Closed",
     "default_close_desc": "This ticket has been closed.\nUse **Reopen** if you need further assistance.",
     "default_close_footer": "Closed on {date}",
-
     "default_reopen_title": "🔓 Ticket Reopened",
     "default_reopen_desc": "This ticket has been reopened. A team member will respond shortly.",
     "default_reopen_footer": "Reopened on {date}",
-
     "default_delete_title": "🗑️ Ticket Deleted",
     "default_delete_desc": "This channel will be deleted in **5 seconds**.",
     "default_delete_footer": "Deleted on {date}",
-
     "default_closure_request_title": "📋 Close Requested",
     "default_closure_request_desc": "{mention} has requested this ticket to be closed.",
     "default_closure_request_footer": "Requested on {date}",
-
     "default_feedback_title": "⭐ How was your support?",
     "default_feedback_desc": "Please rate your experience using the buttons below.",
     "default_feedback_footer": "Ticket #{ticketid}",
-
     "default_user_left_title": "👤 Ticket Creator Left",
     "default_user_left_desc": "{user} has left the server.",
     "default_user_left_footer": "Ticket #{ticketid}",
-
     "default_form_data_title": "📋 Form Responses",
     "default_form_data_desc": "Answers submitted by the user before the ticket was opened.",
-    "ticket.form_info_desc": "Answers submitted by the user before the ticket was opened.",
     "default_form_data_footer": "Ticket #{ticketid}",
-
     "default_prompt_title": "🎟️ Open a Ticket",
     "default_prompt_desc": "Select a category from the dropdown below.",
     "default_prompt_footer": "{server} • Support",
-
     "default_log_open_title": "🎟️ Ticket Opened",
     "default_log_open_desc": "A new ticket was opened by {mention}.",
     "default_log_open_footer": "Ticket #{ticketid} • {date}",
-
     "default_log_close_title": "🔒 Ticket Closed",
     "default_log_close_desc": "Ticket #{ticketid} was closed by {user}.",
     "default_log_close_footer": "{date}",
-
     "default_log_reopen_title": "🔓 Ticket Reopened",
     "default_log_reopen_desc": "Ticket #{ticketid} was reopened by {user}.",
     "default_log_reopen_footer": "{date}",
-
     "default_log_delete_title": "🗑️ Ticket Deleted",
     "default_log_delete_desc": "Ticket #{ticketid} was permanently deleted by {user}.",
     "default_log_delete_footer": "{date}",
-
     "default_log_claim_title": "✋ Ticket Claimed",
     "default_log_claim_desc": "Ticket #{ticketid} was claimed by {staffmention}.",
     "default_log_claim_footer": "{date}",
-
     "default_log_unclaim_title": "↩️ Ticket Unclaimed",
     "default_log_unclaim_desc": "Ticket #{ticketid} was unclaimed by {staffmention}.",
     "default_log_unclaim_footer": "{date}"
@@ -315,35 +299,28 @@
     "default_verify_title": "Server Verification Required",
     "default_verify_desc": "Hello {mention}! \n To access {server} you need to verify yourself. \n Time remaining: {timeleft}",
     "default_verify_footer": "Verification • {server}",
-
     "default_success_title": "Successfully Verified!",
     "default_success_desc": "Welcome {user}! 🎉\nYou have been successfully verified.\nEnjoy your stay on {server}!",
     "default_success_footer": "Leyno Bot • Verified",
-
     "default_failed_title": "Verification Failed",
     "default_failed_desc": "Your answer was incorrect, {mention}.\nPlease try again.\n\nAttempts remaining: {attempts}",
     "default_failed_footer": "Verification • {server}",
-
     "default_timeout_title": "Verification Timed Out",
     "default_timeout_desc": "Hey {mention}, your verification time has expired.",
     "default_timeout_footer": "Verification • {server}",
-
     "default_already_title": "Already Verified",
     "default_already_desc": "You are already verified on {server}, {mention}!",
     "default_already_footer": "Verification • {server}"
   },
   "welcome": {
     "fallback": "Welcome {mention} to **{server}**!",
-
     "default_author": "{server} • Welcome",
     "default_title": "Welcome {user}!",
     "default_description": "Hey {mention}, welcome to {server}!\nYou are our {count}th member 🎉",
     "default_footer": "Member #{count} • {server}"
   },
-
   "leave": {
     "fallback": "**{username}** has left **{server}**.",
-
     "default_author": "{server} • Goodbye",
     "default_title": "Goodbye {user}!",
     "default_description": "**{user}** has left **{server}**.\nWe now have {count} members.",
