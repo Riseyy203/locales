@@ -14,7 +14,19 @@
   },
   "general": {
     "error": "Ein Fehler ist aufgetreten.",
-    "no_permission": "Du hast keine Berechtigung, diesen Befehl zu verwenden."
+    "no_permission": "Du hast keine Berechtigung, diesen Befehl zu verwenden.",
+    "bot_no_permission": "Ich habe keine Berechtigung dafür.",
+    "reason_required": "Ein Grund ist für diese Aktion erforderlich.",
+    "no_reason": "Kein Grund angegeben",
+    "user_not_found": "Nutzer nicht gefunden.",
+    "cannot_interact": "Du kannst nicht mit diesem Nutzer interagieren.",
+    "bot_cannot_interact": "Ich kann nicht mit diesem Nutzer interagieren, da seine Rolle höher oder gleich meiner ist.",
+    "target": "Ziel",
+    "moderator": "Moderator",
+    "reason": "Grund",
+    "channel": "Kanal",
+    "amount": "Anzahl",
+    "invalid_input": "Ungültige Eingabe."
   },
   "settings": {
     "language_changed": "Die Sprache wurde erfolgreich geändert.",
@@ -35,7 +47,11 @@
     "cannot_self": "Du kannst dich nicht selbst bannen.",
     "cannot_owner": "Du kannst den Server-Inhaber nicht bannen.",
     "cannot_higher_role": "Du kannst kein Mitglied mit einer höheren oder gleichen Rolle bannen.",
-    "failed": "Der Bann konnte nicht ausgeführt werden: {error}"
+    "failed": "Der Bann konnte nicht ausgeführt werden: {error}",
+    "dm_title": "🔨 Gebannt von {guild}",
+    "dm_description": "Du wurdest gebannt.\nGrund: {reason}",
+    "success": "Nutzer {user} wurde erfolgreich gebannt. Grund: {reason}",
+    "log_title": "Mitglied gebannt"
   },
   "clear": {
     "success_title": "🧹 | Nachrichten gelöscht",
@@ -60,7 +76,11 @@
     "cannot_self": "Du kannst dich nicht selbst kicken.",
     "cannot_owner": "Du kannst den Server-Inhaber nicht kicken.",
     "cannot_higher_role": "Du kannst kein Mitglied mit einer höheren oder gleichen Rolle kicken.",
-    "failed": "Der Kick konnte nicht ausgeführt werden: {error}"
+    "failed": "Der Kick konnte nicht ausgeführt werden: {error}",
+    "dm_title": "🥾 Gekickt von {guild}",
+    "dm_description": "Du wurdest gekickt.\nGrund: {reason}",
+    "success": "Nutzer {user} wurde erfolgreich gekickt. Grund: {reason}",
+    "log_title": "Mitglied gekickt"
   },
   "ping": {
     "title": "🏓 | Pong!",
@@ -112,6 +132,7 @@
     "already_closed_desc": "Dieses Ticket ist bereits geschlossen.",
     "no_perm_close_desc": "Nur Teammitglieder können Tickets schließen.",
     "no_perm_claim_desc": "Nur Teammitglieder können Tickets beanspruchen.",
+    "cannot_claim_own_desc": "Du kannst dein eigenes Ticket nicht übernehmen.",
     "preform_embed_title": "Kategorie auswählen",
     "preform_embed_desc": "Bitte wähle die Option, die dein Anliegen für **{category}** am besten beschreibt.",
     "form_choice": "Auswahl",
@@ -207,6 +228,18 @@
     "log_unclaim_title": "↩️ Ticket freigegeben",
     "log_unclaim_desc": "Ticket #{ticketid} wurde von {staffmention} freigegeben.",
     "log_unclaim_footer": "{date}",
+    "modal_open_reason_title": "Ticket-Grund angeben",
+    "modal_open_reason_label": "Grund für das Ticket",
+    "modal_open_reason_placeholder": "Bitte beschreibe kurz dein Anliegen...",
+    "modal_close_reason_title": "Schließungsgrund angeben",
+    "modal_close_reason_label": "Grund für die Schließung",
+    "modal_close_reason_placeholder": "Warum wird dieses Ticket geschlossen?",
+    "modal_closure_request_title": "Schließung anfragen",
+    "modal_closure_request_label": "Grund für die Schließung",
+    "no_reason": "Kein Grund angegeben",
+    "default_inactivity_title": "⏳ Inaktivitäts-Erinnerung",
+    "default_inactivity_desc": "Dieses Ticket ist seit längerer Zeit inaktiv.\n\nSolltest du keine Hilfe mehr benötigen, schließe das Ticket bitte.",
+    "default_inactivity_footer": "Inaktivität erkannt • {date}",
     "default_welcome_title": "🎟️ Ticket geöffnet",
     "default_welcome_desc": "Willkommen {mention}!\nEin Teammitglied wird sich in Kürze um dich kümmern.\n\nBitte beschreibe dein Anliegen.",
     "default_welcome_footer": "Ticket #{ticketid} • {date}",

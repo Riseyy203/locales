@@ -14,7 +14,19 @@
   },
   "general": {
     "error": "An error occurred.",
-    "no_permission": "You don't have permission to use this command."
+    "no_permission": "You don't have permission to use this command.",
+    "bot_no_permission": "I don't have the required permissions to do that.",
+    "reason_required": "A reason is required for this action.",
+    "no_reason": "No reason provided",
+    "user_not_found": "User not found.",
+    "cannot_interact": "You cannot interact with this user.",
+    "bot_cannot_interact": "I cannot interact with this user because their role is equal to or higher than mine.",
+    "target": "Target",
+    "moderator": "Moderator",
+    "reason": "Reason",
+    "channel": "Channel",
+    "amount": "Amount",
+    "invalid_input": "Invalid input."
   },
   "settings": {
     "language_changed": "The language has been changed successfully.",
@@ -35,7 +47,11 @@
     "cannot_self": "You cannot ban yourself.",
     "cannot_owner": "You cannot ban the server owner.",
     "cannot_higher_role": "You cannot ban a member with a higher or equal role.",
-    "failed": "The ban could not be executed: {error}"
+    "failed": "The ban could not be executed: {error}",
+    "dm_title": "🔨 Banned from {guild}",
+    "dm_description": "You have been banned.\nReason: {reason}",
+    "success": "User {user} was successfully banned. Reason: {reason}",
+    "log_title": "Member Banned"
   },
   "clear": {
     "success_title": "🧹 | Messages cleared",
@@ -60,7 +76,11 @@
     "cannot_self": "You cannot kick yourself.",
     "cannot_owner": "You cannot kick the server owner.",
     "cannot_higher_role": "You cannot kick a member with a higher or equal role.",
-    "failed": "The kick could not be executed: {error}"
+    "failed": "The kick could not be executed: {error}",
+    "dm_title": "🥾 Kicked from {guild}",
+    "dm_description": "You have been kicked.\nReason: {reason}",
+    "success": "User {user} was successfully kicked. Reason: {reason}",
+    "log_title": "Member Kicked"
   },
   "ping": {
     "title": "🏓 | Pong!",
@@ -112,6 +132,7 @@
     "already_closed_desc": "This ticket is already closed.",
     "no_perm_close_desc": "Only staff members can close tickets.",
     "no_perm_claim_desc": "Only staff members can claim tickets.",
+    "cannot_claim_own_desc": "You cannot claim your own ticket.",
     "preform_embed_title": "Select a Category",
     "preform_embed_desc": "Please choose the option that best matches your issue for **{category}**.",
     "form_choice": "Choice",
@@ -207,6 +228,18 @@
     "log_unclaim_title": "↩️ Ticket Unclaimed",
     "log_unclaim_desc": "Ticket #{ticketid} was unclaimed by {staffmention}.",
     "log_unclaim_footer": "{date}",
+    "modal_open_reason_title": "Provide Ticket Reason",
+    "modal_open_reason_label": "Reason for the Ticket",
+    "modal_open_reason_placeholder": "Please briefly describe your issue...",
+    "modal_close_reason_title": "Provide Closure Reason",
+    "modal_close_reason_label": "Reason for closing",
+    "modal_close_reason_placeholder": "Why is this ticket being closed?",
+    "modal_closure_request_title": "Request Closure",
+    "modal_closure_request_label": "Reason for closing",
+    "no_reason": "No reason provided",
+    "default_inactivity_title": "⏳ Inactivity Reminder",
+    "default_inactivity_desc": "This ticket has been inactive for a while.\n\nIf you no longer need help, please close the ticket.",
+    "default_inactivity_footer": "Inactivity detected • {date}",
     "default_welcome_title": "🎟️ Ticket Opened",
     "default_welcome_desc": "Welcome {mention}!\nA team member will be with you shortly.\n\nPlease describe your issue.",
     "default_welcome_footer": "Ticket #{ticketid} • {date}",
