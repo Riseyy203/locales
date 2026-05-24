@@ -10,7 +10,8 @@
     "nochannel_title": "❌ | Kanal oder Berechtigung nicht erlaubt",
     "nochannel_desc": "> Der Befehl {command} ist in diesem Kanal oder mit deinen aktuellen Berechtigungen deaktiviert.\n\n> Du kannst die erlaubten Kanäle und Berechtigungen im Leyno-Dashboard konfigurieren.\n> Nach der Anpassung kann der Befehl hier wieder verwendet werden.",
     "blockedrole_title": "❌ | Rolle nicht erlaubt",
-    "blockedrole_desc": "> Der {command} ist für deine Rolle deaktiviert.\n\n> Du kannst im Leyno-Dashboard festlegen, welche Rollen den Befehl verwenden dürfen.\n> Aktiviere die entsprechende Rolle dort, um den Befehl nutzen zu können."
+    "blockedrole_desc": "> Der {command} ist für deine Rolle deaktiviert.\n\n> Du kannst im Leyno-Dashboard festlegen, welche Rollen den Befehl verwenden dürfen.\n> Aktiviere die entsprechende Rolle dort, um den Befehl nutzen zu können.",
+    "dashboard": "Dashboard"
   },
   "general": {
     "error": "Ein Fehler ist aufgetreten.",
@@ -26,12 +27,15 @@
     "reason": "Grund",
     "channel": "Kanal",
     "amount": "Anzahl",
-    "invalid_input": "Ungültige Eingabe."
+    "invalid_input": "Ungültige Eingabe.",
+    "action_by": "{action} von {user}",
+    "guild_only": "Dieser Befehl kann nur auf einem Server verwendet werden."
   },
   "settings": {
     "language_changed": "Die Sprache wurde erfolgreich geändert.",
     "language_invalid": "Ungültige Sprache. Verfügbare Sprachen: {languages}",
-    "language_current": "Aktuelle Sprache: **{language}**"
+    "language_current": "Aktuelle Sprache: **{language}**",
+    "locales_reloaded": "Locale-Dateien wurden neu geladen."
   },
   "help": {
     "title": "❓ | Hilfe",
@@ -63,7 +67,8 @@
     "no_messages_title": "❌ | Keine Nachrichten gefunden",
     "no_messages_desc": "> Keine löschbaren Nachrichten gefunden.\n> Nachrichten älter als **2 Wochen** können von Discord nicht in Massen gelöscht werden.",
     "error_desc": "> Beim Löschen der Nachrichten ist etwas schiefgelaufen.\n> Bitte versuche es später erneut.",
-    "invalid_input": "Ungültige Anzahl."
+    "invalid_input": "Ungültige Anzahl.",
+    "log_title": "Nachrichten gelöscht"
   },
   "embed": {
     "no_perms": "Fehlende Berechtigungen"
@@ -110,7 +115,10 @@
     "timed_out": "✅ | Nutzer **{username}** wurde erfolgreich für **{duration} Tag(e)** in den Timeout versetzt.",
     "cannot_kick_owner": "Du kannst den Server-Inhaber nicht kicken.",
     "cannot_ban_owner": "Du kannst den Server-Inhaber nicht bannen.",
-    "cannot_timeout_owner": "Du kannst den Server-Inhaber nicht in den Timeout versetzen."
+    "cannot_timeout_owner": "Du kannst den Server-Inhaber nicht in den Timeout versetzen.",
+    "timeout_modal_title": "Nutzer timeouten",
+    "timeout_duration_label": "Dauer (Tage)",
+    "timeout_duration_placeholder": "z. B. 7"
   },
   "ticket": {
     "system_disabled_title": "System deaktiviert",
@@ -417,6 +425,18 @@
     "log_action_timeout": "⏱️ Timeout ({duration})",
     "log_action_kick": "👢 Kick",
     "log_action_ban": "🔨 Bann (permanent)",
-    "log_action_ban_timed": "🔨 Bann ({duration})"
+    "log_action_ban_timed": "🔨 Bann ({duration})",
+    "cannot_bot": "Du kannst keinen Bot verwarnen.",
+    "cannot_self": "Du kannst dich nicht selbst verwarnen.",
+    "no_warns_to_remove": "{user} hat keine Verwarnungen zum Entfernen.",
+    "removed_title": "Verwarnung entfernt",
+    "removed_desc": "Die letzte Verwarnung für **{user}** wurde entfernt.",
+    "remaining": "Verbleibende Verwarnungen",
+    "history_title": "Verwarnungsverlauf – {user}",
+    "history_none": "Dieser Nutzer hat keine Verwarnungen.",
+    "total": "Gesamt: {count}",
+    "no_warns_to_clear": "{user} hat keine Verwarnungen zum Löschen.",
+    "cleared_title": "Verwarnungen gelöscht",
+    "cleared_desc": "**{count}** Verwarnung(en) für **{user}** wurden gelöscht."
   }
 }

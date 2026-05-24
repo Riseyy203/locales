@@ -10,7 +10,8 @@
     "nochannel_title": "❌ | Kanaal of machtiging niet toegestaan",
     "nochannel_desc": "> De opdracht {command} is uitgeschakeld in dit kanaal of met je huidige machtigingen.\n\n> Je kunt de toegestane kanalen en machtigingen configureren in het Leyno-dashboard.\n> Na de aanpassing kan de opdracht hier weer worden gebruikt.",
     "blockedrole_title": "❌ | Rol niet toegestaan",
-    "blockedrole_desc": "> De {command} is uitgeschakeld voor jouw rol.\n\n> Je kunt in het Leyno-dashboard instellen welke rollen de opdracht mogen gebruiken.\n> Activeer daar de bijbehorende rol om de opdracht te kunnen gebruiken."
+    "blockedrole_desc": "> De {command} is uitgeschakeld voor jouw rol.\n\n> Je kunt in het Leyno-dashboard instellen welke rollen de opdracht mogen gebruiken.\n> Activeer daar de bijbehorende rol om de opdracht te kunnen gebruiken.",
+    "dashboard": "Dashboard"
   },
   "general": {
     "error": "Er is een fout opgetreden.",
@@ -26,12 +27,15 @@
     "reason": "Reden",
     "channel": "Kanaal",
     "amount": "Aantal",
-    "invalid_input": "Ongeldige invoer."
+    "invalid_input": "Ongeldige invoer.",
+    "action_by": "{action} door {user}",
+    "guild_only": "Deze opdracht kan alleen op een server worden gebruikt."
   },
   "settings": {
     "language_changed": "De taal is succesvol gewijzigd.",
     "language_invalid": "Ongeldige taal. Beschikbare talen: {languages}",
-    "language_current": "Huidige taal: **{language}**"
+    "language_current": "Huidige taal: **{language}**",
+    "locales_reloaded": "Taalbestanden zijn opnieuw geladen."
   },
   "help": {
     "title": "❓ | Help",
@@ -63,7 +67,8 @@
     "no_messages_title": "❌ | Geen berichten gevonden",
     "no_messages_desc": "> Geen verwijderbare berichten gevonden.\n> Berichten ouder dan **2 weken** kunnen niet in bulk worden verwijderd door Discord.",
     "error_desc": "> Er is iets misgegaan bij het verwijderen van de berichten.\n> Probeer het later opnieuw.",
-    "invalid_input": "Ongeldig aantal."
+    "invalid_input": "Ongeldig aantal.",
+    "log_title": "Berichten gewist"
   },
   "embed": {
     "no_perms": "Ontbrekende machtigingen"
@@ -110,7 +115,10 @@
     "timed_out": "✅ | Gebruiker **{username}** heeft succesvol een timeout gekregen voor **{duration} dag(en)**.",
     "cannot_kick_owner": "Je kunt de servereigenaar niet kicken.",
     "cannot_ban_owner": "Je kunt de servereigenaar niet verbannen.",
-    "cannot_timeout_owner": "Je kunt de servereigenaar geen timeout geven."
+    "cannot_timeout_owner": "Je kunt de servereigenaar geen timeout geven.",
+    "timeout_modal_title": "Gebruiker timeout geven",
+    "timeout_duration_label": "Duur (dagen)",
+    "timeout_duration_placeholder": "bijv. 7"
   },
   "ticket": {
     "system_disabled_title": "Systeem uitgeschakeld",
@@ -417,6 +425,18 @@
     "log_action_timeout": "⏱️ Timeout ({duration})",
     "log_action_kick": "👢 Kick",
     "log_action_ban": "🔨 Ban (permanent)",
-    "log_action_ban_timed": "🔨 Ban ({duration})"
+    "log_action_ban_timed": "🔨 Ban ({duration})",
+    "cannot_bot": "Je kunt geen bot waarschuwen.",
+    "cannot_self": "Je kunt jezelf niet waarschuwen.",
+    "no_warns_to_remove": "{user} heeft geen waarschuwingen om te verwijderen.",
+    "removed_title": "Waarschuwing verwijderd",
+    "removed_desc": "De laatste waarschuwing voor **{user}** is verwijderd.",
+    "remaining": "Resterende waarschuwingen",
+    "history_title": "Waarschuwingsgeschiedenis – {user}",
+    "history_none": "Deze gebruiker heeft geen waarschuwingen.",
+    "total": "Totaal: {count}",
+    "no_warns_to_clear": "{user} heeft geen waarschuwingen om te wissen.",
+    "cleared_title": "Waarschuwingen gewist",
+    "cleared_desc": "**{count}** waarschuwing(en) gewist voor **{user}**."
   }
 }

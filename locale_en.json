@@ -10,7 +10,8 @@
     "nochannel_title": "❌ | Channel or permission not allowed",
     "nochannel_desc": "> The command {command} is disabled in this channel or with your current permissions.\n\n> You can configure the allowed channels and permissions in the Leyno dashboard.\n> After the adjustment, the command can be used again here.",
     "blockedrole_title": "❌ | Role not allowed",
-    "blockedrole_desc": "> The {command} is disabled for your role.\n\n> You can set which roles are allowed to use the command in the Leyno dashboard.\n> Activate the corresponding role there to be able to use the command."
+    "blockedrole_desc": "> The {command} is disabled for your role.\n\n> You can set which roles are allowed to use the command in the Leyno dashboard.\n> Activate the corresponding role there to be able to use the command.",
+    "dashboard": "Dashboard"
   },
   "general": {
     "error": "An error occurred.",
@@ -26,12 +27,15 @@
     "reason": "Reason",
     "channel": "Channel",
     "amount": "Amount",
-    "invalid_input": "Invalid input."
+    "invalid_input": "Invalid input.",
+    "action_by": "{action} by {user}",
+    "guild_only": "This command can only be used in a server."
   },
   "settings": {
     "language_changed": "The language has been changed successfully.",
     "language_invalid": "Invalid language. Available languages: {languages}",
-    "language_current": "Current language: **{language}**"
+    "language_current": "Current language: **{language}**",
+    "locales_reloaded": "Locale files have been reloaded."
   },
   "help": {
     "title": "❓ | Help",
@@ -63,7 +67,8 @@
     "no_messages_title": "❌ | No messages found",
     "no_messages_desc": "> No deletable messages found.\n> Messages older than **2 weeks** cannot be bulk-deleted by Discord.",
     "error_desc": "> Something went wrong while deleting the messages.\n> Please try again later.",
-    "invalid_input": "Invalid amount."
+    "invalid_input": "Invalid amount.",
+    "log_title": "Messages Cleared"
   },
   "embed": {
     "no_perms": "Missing Permissions"
@@ -110,7 +115,10 @@
     "timed_out": "✅ | User **{username}** has been timed out for **{duration} day(s)** successfully.",
     "cannot_kick_owner": "You cannot kick the server owner.",
     "cannot_ban_owner": "You cannot ban the server owner.",
-    "cannot_timeout_owner": "You cannot timeout the server owner."
+    "cannot_timeout_owner": "You cannot timeout the server owner.",
+    "timeout_modal_title": "Timeout User",
+    "timeout_duration_label": "Duration (days)",
+    "timeout_duration_placeholder": "e.g. 7"
   },
   "ticket": {
     "system_disabled_title": "System Disabled",
@@ -417,6 +425,18 @@
     "log_action_timeout": "⏱️ Timeout ({duration})",
     "log_action_kick": "👢 Kick",
     "log_action_ban": "🔨 Ban (permanent)",
-    "log_action_ban_timed": "🔨 Ban ({duration})"
+    "log_action_ban_timed": "🔨 Ban ({duration})",
+    "cannot_bot": "You cannot warn a bot.",
+    "cannot_self": "You cannot warn yourself.",
+    "no_warns_to_remove": "{user} has no warnings to remove.",
+    "removed_title": "Warning Removed",
+    "removed_desc": "The last warning for **{user}** has been removed.",
+    "remaining": "Remaining warnings",
+    "history_title": "Warning History – {user}",
+    "history_none": "This user has no warnings.",
+    "total": "Total: {count}",
+    "no_warns_to_clear": "{user} has no warnings to clear.",
+    "cleared_title": "Warnings Cleared",
+    "cleared_desc": "Cleared **{count}** warning(s) for **{user}**."
   }
 }

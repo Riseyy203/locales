@@ -10,7 +10,8 @@
     "nochannel_title": "❌ | Canal o permiso no permitido",
     "nochannel_desc": "> El comando {command} está desactivado en este canal o con tus permisos actuales.\n\n> Puedes configurar los canales y permisos permitidos en el panel de Leyno.\n> Después del ajuste, el comando se podrá usar de nuevo aquí.",
     "blockedrole_title": "❌ | Rol no permitido",
-    "blockedrole_desc": "> El {command} está desactivado para tu rol.\n\n> Puedes establecer qué roles tienen permitido usar el comando en el panel de Leyno.\n> Activa el rol correspondiente allí para poder usar el comando."
+    "blockedrole_desc": "> El {command} está desactivado para tu rol.\n\n> Puedes establecer qué roles tienen permitido usar el comando en el panel de Leyno.\n> Activa el rol correspondiente allí para poder usar el comando.",
+    "dashboard": "Panel"
   },
   "general": {
     "error": "Ocurrió un error.",
@@ -26,12 +27,15 @@
     "reason": "Razón",
     "channel": "Canal",
     "amount": "Cantidad",
-    "invalid_input": "Entrada inválida."
+    "invalid_input": "Entrada inválida.",
+    "action_by": "{action} por {user}",
+    "guild_only": "Este comando solo se puede usar en un servidor."
   },
   "settings": {
     "language_changed": "El idioma se ha cambiado correctamente.",
     "language_invalid": "Idioma inválido. Idiomas disponibles: {languages}",
-    "language_current": "Idioma actual: **{language}**"
+    "language_current": "Idioma actual: **{language}**",
+    "locales_reloaded": "Los archivos de idioma se han recargado."
   },
   "help": {
     "title": "❓ | Ayuda",
@@ -63,7 +67,8 @@
     "no_messages_title": "❌ | No se encontraron mensajes",
     "no_messages_desc": "> No se encontraron mensajes eliminables.\n> Discord no puede eliminar en masa mensajes de más de **2 semanas**.",
     "error_desc": "> Algo salió mal al eliminar los mensajes.\n> Por favor, inténtalo de nuevo más tarde.",
-    "invalid_input": "Cantidad inválida."
+    "invalid_input": "Cantidad inválida.",
+    "log_title": "Mensajes eliminados"
   },
   "embed": {
     "no_perms": "Permisos faltantes"
@@ -110,7 +115,10 @@
     "timed_out": "✅ | El usuario **{username}** ha sido silenciado por **{duration} día(s)** con éxito.",
     "cannot_kick_owner": "No puedes expulsar al dueño del servidor.",
     "cannot_ban_owner": "No puedes banear al dueño del servidor.",
-    "cannot_timeout_owner": "No puedes silenciar al dueño del servidor."
+    "cannot_timeout_owner": "No puedes silenciar al dueño del servidor.",
+    "timeout_modal_title": "Silenciar usuario",
+    "timeout_duration_label": "Duración (días)",
+    "timeout_duration_placeholder": "p. ej. 7"
   },
   "ticket": {
     "system_disabled_title": "Sistema desactivado",
@@ -417,6 +425,18 @@
     "log_action_timeout": "⏱️ Silencio ({duration})",
     "log_action_kick": "👢 Expulsión",
     "log_action_ban": "🔨 Baneo (permanente)",
-    "log_action_ban_timed": "🔨 Baneo ({duration})"
+    "log_action_ban_timed": "🔨 Baneo ({duration})",
+    "cannot_bot": "No puedes advertir a un bot.",
+    "cannot_self": "No puedes advertirte a ti mismo.",
+    "no_warns_to_remove": "{user} no tiene advertencias que eliminar.",
+    "removed_title": "Advertencia eliminada",
+    "removed_desc": "Se ha eliminado la última advertencia de **{user}**.",
+    "remaining": "Advertencias restantes",
+    "history_title": "Historial de advertencias – {user}",
+    "history_none": "Este usuario no tiene advertencias.",
+    "total": "Total: {count}",
+    "no_warns_to_clear": "{user} no tiene advertencias que borrar.",
+    "cleared_title": "Advertencias borradas",
+    "cleared_desc": "Se han borrado **{count}** advertencia(s) de **{user}**."
   }
 }

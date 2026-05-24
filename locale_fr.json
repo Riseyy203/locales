@@ -10,7 +10,8 @@
     "nochannel_title": "❌ | Salon ou permission non autorisé",
     "nochannel_desc": "> La commande {command} est désactivée dans ce salon ou avec vos permissions actuelles.\n\n> Vous pouvez configurer les salons et permissions autorisés dans le panel Leyno.\n> Après l'ajustement, la commande pourra être réutilisée ici.",
     "blockedrole_title": "❌ | Rôle non autorisé",
-    "blockedrole_desc": "> La commande {command} est désactivée pour votre rôle.\n\n> Vous pouvez définir quels rôles sont autorisés à utiliser la commande dans le panel Leyno.\n> Activez le rôle correspondant là-bas pour pouvoir utiliser la commande."
+    "blockedrole_desc": "> La commande {command} est désactivée pour votre rôle.\n\n> Vous pouvez définir quels rôles sont autorisés à utiliser la commande dans le panel Leyno.\n> Activez le rôle correspondant là-bas pour pouvoir utiliser la commande.",
+    "dashboard": "Panel"
   },
   "general": {
     "error": "Une erreur est survenue.",
@@ -26,12 +27,15 @@
     "reason": "Raison",
     "channel": "Salon",
     "amount": "Montant",
-    "invalid_input": "Entrée invalide."
+    "invalid_input": "Entrée invalide.",
+    "action_by": "{action} par {user}",
+    "guild_only": "Cette commande ne peut être utilisée que sur un serveur."
   },
   "settings": {
     "language_changed": "La langue a été modifiée avec succès.",
     "language_invalid": "Langue invalide. Langues disponibles : {languages}",
-    "language_current": "Langue actuelle : **{language}**"
+    "language_current": "Langue actuelle : **{language}**",
+    "locales_reloaded": "Les fichiers de langue ont été rechargés."
   },
   "help": {
     "title": "❓ | Aide",
@@ -63,7 +67,8 @@
     "no_messages_title": "❌ | Aucun message trouvé",
     "no_messages_desc": "> Aucun message supprimable n'a été trouvé.\n> Discord ne permet pas de supprimer en masse des messages datant de plus de **2 semaines**.",
     "error_desc": "> Une erreur est survenue lors de la suppression des messages.\n> Veuillez réessayer plus tard.",
-    "invalid_input": "Quantité invalide."
+    "invalid_input": "Quantité invalide.",
+    "log_title": "Messages supprimés"
   },
   "embed": {
     "no_perms": "Permissions manquantes"
@@ -110,7 +115,10 @@
     "timed_out": "✅ | L'utilisateur **{username}** a été exclu pendant **{duration} jour(s)** avec succès.",
     "cannot_kick_owner": "Vous ne pouvez pas expulser le propriétaire du serveur.",
     "cannot_ban_owner": "Vous ne pouvez pas bannir le propriétaire du serveur.",
-    "cannot_timeout_owner": "Vous ne pouvez pas exclure le propriétaire du serveur."
+    "cannot_timeout_owner": "Vous ne pouvez pas exclure le propriétaire du serveur.",
+    "timeout_modal_title": "Exclure un utilisateur",
+    "timeout_duration_label": "Durée (jours)",
+    "timeout_duration_placeholder": "ex. 7"
   },
   "ticket": {
     "system_disabled_title": "Système désactivé",
@@ -417,6 +425,18 @@
     "log_action_timeout": "⏱️ Exclusion ({duration})",
     "log_action_kick": "👢 Expulsion",
     "log_action_ban": "🔨 Bannissement (permanent)",
-    "log_action_ban_timed": "🔨 Bannissement ({duration})"
+    "log_action_ban_timed": "🔨 Bannissement ({duration})",
+    "cannot_bot": "Vous ne pouvez pas avertir un bot.",
+    "cannot_self": "Vous ne pouvez pas vous avertir vous-même.",
+    "no_warns_to_remove": "{user} n'a aucun avertissement à supprimer.",
+    "removed_title": "Avertissement supprimé",
+    "removed_desc": "Le dernier avertissement de **{user}** a été supprimé.",
+    "remaining": "Avertissements restants",
+    "history_title": "Historique des avertissements – {user}",
+    "history_none": "Cet utilisateur n'a aucun avertissement.",
+    "total": "Total : {count}",
+    "no_warns_to_clear": "{user} n'a aucun avertissement à effacer.",
+    "cleared_title": "Avertissements effacés",
+    "cleared_desc": "**{count}** avertissement(s) effacé(s) pour **{user}**."
   }
 }

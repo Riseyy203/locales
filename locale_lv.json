@@ -10,7 +10,8 @@
     "nochannel_title": "❌ | Kanāls vai atļauja nav atļauta",
     "nochannel_desc": "> Komanda {command} ir atspējota šajā kanālā vai ar jūsu pašreizējām atļaujām.\n\n> Jūs varat konfigurēt atļautos kanālus un atļaujas Leyno informācijas panelī.\n> Pēc pielāgošanas komandu šeit varēs izmantot vēlreiz.",
     "blockedrole_title": "❌ | Loma nav atļauta",
-    "blockedrole_desc": "> Komanda {command} jūsu lomai ir atspējota.\n\n> Leyno informācijas panelī varat iestatīt, kurām lomām ir atļauts izmantot komandu.\n> Aktivizējiet tur atbilstošo lomu, lai varētu izmantot komandu."
+    "blockedrole_desc": "> Komanda {command} jūsu lomai ir atspējota.\n\n> Leyno informācijas panelī varat iestatīt, kurām lomām ir atļauts izmantot komandu.\n> Aktivizējiet tur atbilstošo lomu, lai varētu izmantot komandu.",
+    "dashboard": "Panelis"
   },
   "general": {
     "error": "Notika kļūda.",
@@ -26,12 +27,15 @@
     "reason": "Iemesls",
     "channel": "Kanāls",
     "amount": "Daudzums",
-    "invalid_input": "Nederīga ievade."
+    "invalid_input": "Nederīga ievade.",
+    "action_by": "{action} — {user}",
+    "guild_only": "Šo komandu var izmantot tikai serverī."
   },
   "settings": {
     "language_changed": "Valoda ir veiksmīgi nomainīta.",
     "language_invalid": "Nederīga valoda. Pieejamās valodas: {languages}",
-    "language_current": "Pašreizējā valoda: **{language}**"
+    "language_current": "Pašreizējā valoda: **{language}**",
+    "locales_reloaded": "Valodu faili ir pārlādēti."
   },
   "help": {
     "title": "❓ | Palīdzība",
@@ -63,7 +67,8 @@
     "no_messages_title": "❌ | Ziņojumi netika atrasti",
     "no_messages_desc": "> Netika atrasti izdzēšami ziņojumi.\n> Discord nevar masveidā izdzēst ziņojumus, kas vecāki par **2 nedēļām**.",
     "error_desc": "> Izdzēšot ziņojumus, kaut kas nogāja greizi.\n> Lūdzu, mēģiniet vēlreiz vēlāk.",
-    "invalid_input": "Nederīgs daudzums."
+    "invalid_input": "Nederīgs daudzums.",
+    "log_title": "Ziņojumi izdzēsti"
   },
   "embed": {
     "no_perms": "Trūkst atļauju"
@@ -110,7 +115,10 @@
     "timed_out": "✅ | Lietotājam **{username}** veiksmīgi uzlikts timeout uz **{duration} dienām**.",
     "cannot_kick_owner": "Jūs nevarat izmest servera īpašnieku.",
     "cannot_ban_owner": "Jūs nevarat bloķēt servera īpašnieku.",
-    "cannot_timeout_owner": "Jūs nevarat uzlikt timeout servera īpašniekam."
+    "cannot_timeout_owner": "Jūs nevarat uzlikt timeout servera īpašniekam.",
+    "timeout_modal_title": "Uzlikt timeout lietotājam",
+    "timeout_duration_label": "Ilgums (dienas)",
+    "timeout_duration_placeholder": "piem. 7"
   },
   "ticket": {
     "system_disabled_title": "Sistēma atspējota",
@@ -417,6 +425,18 @@
     "log_action_timeout": "⏱️ Timeout ({duration})",
     "log_action_kick": "👢 Kick",
     "log_action_ban": "🔨 Ban (pastāvīgs)",
-    "log_action_ban_timed": "🔨 Ban ({duration})"
+    "log_action_ban_timed": "🔨 Ban ({duration})",
+    "cannot_bot": "Jūs nevarat brīdināt botu.",
+    "cannot_self": "Jūs nevarat brīdināt pats sevi.",
+    "no_warns_to_remove": "{user} nav brīdinājumu, ko noņemt.",
+    "removed_title": "Brīdinājums noņemts",
+    "removed_desc": "Pēdējais brīdinājums lietotājam **{user}** ir noņemts.",
+    "remaining": "Atlikušie brīdinājumi",
+    "history_title": "Brīdinājumu vēsture – {user}",
+    "history_none": "Šim lietotājam nav brīdinājumu.",
+    "total": "Kopā: {count}",
+    "no_warns_to_clear": "{user} nav brīdinājumu, ko notīrīt.",
+    "cleared_title": "Brīdinājumi notīrīti",
+    "cleared_desc": "Notīrīti **{count}** brīdinājumi lietotājam **{user}**."
   }
 }

@@ -10,7 +10,8 @@
     "nochannel_title": "❌ | Canale o permesso non consentito",
     "nochannel_desc": "> Il comando {command} è disabilitato in questo canale o con i tuoi permessi attuali.\n\n> Puoi configurare i canali e i permessi consentiti nel dashboard di Leyno.\n> Dopo la modifica, il comando potrà essere nuovamente utilizzato qui.",
     "blockedrole_title": "❌ | Ruolo non consentito",
-    "blockedrole_desc": "> Il comando {command} è disabilitato per il tuo ruolo.\n\n> Puoi impostare quali ruoli possono usare il comando nel dashboard di Leyno.\n> Attiva il ruolo corrispondente lì per poter usare il comando."
+    "blockedrole_desc": "> Il comando {command} è disabilitato per il tuo ruolo.\n\n> Puoi impostare quali ruoli possono usare il comando nel dashboard di Leyno.\n> Attiva il ruolo corrispondente lì per poter usare il comando.",
+    "dashboard": "Dashboard"
   },
   "general": {
     "error": "Si è verificato un errore.",
@@ -26,12 +27,15 @@
     "reason": "Motivo",
     "channel": "Canale",
     "amount": "Quantità",
-    "invalid_input": "Input non valido."
+    "invalid_input": "Input non valido.",
+    "action_by": "{action} da {user}",
+    "guild_only": "Questo comando può essere usato solo in un server."
   },
   "settings": {
     "language_changed": "La lingua è stata cambiata con successo.",
     "language_invalid": "Lingua non valida. Lingue disponibili: {languages}",
-    "language_current": "Lingua attuale: **{language}**"
+    "language_current": "Lingua attuale: **{language}**",
+    "locales_reloaded": "I file delle lingue sono stati ricaricati."
   },
   "help": {
     "title": "❓ | Aiuto",
@@ -63,7 +67,8 @@
     "no_messages_title": "❌ | Nessun messaggio trovato",
     "no_messages_desc": "> Nessun messaggio eliminabile trovato.\n> Discord non permette di eliminare in massa messaggi più vecchi di **2 settimane**.",
     "error_desc": "> Qualcosa è andato storto durante l'eliminazione dei messaggi.\n> Riprova più tardi.",
-    "invalid_input": "Quantità non valida."
+    "invalid_input": "Quantità non valida.",
+    "log_title": "Messaggi cancellati"
   },
   "embed": {
     "no_perms": "Permessi mancanti"
@@ -110,7 +115,10 @@
     "timed_out": "✅ | L'utente **{username}** è stato messo in timeout per **{duration} giorni** con successo.",
     "cannot_kick_owner": "Non puoi espellere il proprietario del server.",
     "cannot_ban_owner": "Non puoi bannare il proprietario del server.",
-    "cannot_timeout_owner": "Non puoi mettere in timeout il proprietario del server."
+    "cannot_timeout_owner": "Non puoi mettere in timeout il proprietario del server.",
+    "timeout_modal_title": "Metti in timeout l'utente",
+    "timeout_duration_label": "Durata (giorni)",
+    "timeout_duration_placeholder": "es. 7"
   },
   "ticket": {
     "system_disabled_title": "Sistema disabilitato",
@@ -417,6 +425,18 @@
     "log_action_timeout": "⏱️ Timeout ({duration})",
     "log_action_kick": "👢 Kick",
     "log_action_ban": "🔨 Ban (permanente)",
-    "log_action_ban_timed": "🔨 Ban ({duration})"
+    "log_action_ban_timed": "🔨 Ban ({duration})",
+    "cannot_bot": "Non puoi ammonire un bot.",
+    "cannot_self": "Non puoi ammonire te stesso.",
+    "no_warns_to_remove": "{user} non ha ammonizioni da rimuovere.",
+    "removed_title": "Ammonizione rimossa",
+    "removed_desc": "L'ultima ammonizione di **{user}** è stata rimossa.",
+    "remaining": "Ammonizioni rimanenti",
+    "history_title": "Cronologia ammonizioni – {user}",
+    "history_none": "Questo utente non ha ammonizioni.",
+    "total": "Totale: {count}",
+    "no_warns_to_clear": "{user} non ha ammonizioni da cancellare.",
+    "cleared_title": "Ammonizioni cancellate",
+    "cleared_desc": "Cancellate **{count}** ammonizione/i per **{user}**."
   }
 }

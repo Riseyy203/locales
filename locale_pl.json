@@ -10,7 +10,8 @@
     "nochannel_title": "❌ | Kanał lub uprawnienie niedozwolone",
     "nochannel_desc": "> Komenda {command} jest wyłączona na tym kanale lub z Twoimi obecnymi uprawnieniami.\n\n> Możesz skonfigurować dozwolone kanały i uprawnienia w dashboardzie Leyno.\n> Po korekcie komenda będzie mogła być tu ponownie użyta.",
     "blockedrole_title": "❌ | Rola niedozwolona",
-    "blockedrole_desc": "> Komenda {command} jest wyłączona dla Twojej roli.\n\n> W dashboardzie Leyno możesz ustawić, które role mają prawo do używania tej komendy.\n> Aktywuj tam odpowiednią rolę, aby móc korzystać z komendy."
+    "blockedrole_desc": "> Komenda {command} jest wyłączona dla Twojej roli.\n\n> W dashboardzie Leyno możesz ustawić, które role mają prawo do używania tej komendy.\n> Aktywuj tam odpowiednią rolę, aby móc korzystać z komendy.",
+    "dashboard": "Panel"
   },
   "general": {
     "error": "Wystąpił błąd.",
@@ -26,12 +27,15 @@
     "reason": "Powód",
     "channel": "Kanał",
     "amount": "Ilość",
-    "invalid_input": "Nieprawidłowe dane wejściowe."
+    "invalid_input": "Nieprawidłowe dane wejściowe.",
+    "action_by": "{action} przez {user}",
+    "guild_only": "Ta komenda może być używana tylko na serwerze."
   },
   "settings": {
     "language_changed": "Język został pomyślnie zmieniony.",
     "language_invalid": "Nieprawidłowy język. Dostępne języki: {languages}",
-    "language_current": "Aktualny język: **{language}**"
+    "language_current": "Aktualny język: **{language}**",
+    "locales_reloaded": "Pliki językowe zostały przeładowane."
   },
   "help": {
     "title": "❓ | Pomoc",
@@ -63,7 +67,8 @@
     "no_messages_title": "❌ | Nie znaleziono wiadomości",
     "no_messages_desc": "> Nie znaleziono wiadomości do usunięcia.\n> Wiadomości starsze niż **2 tygodnie** nie mogą być masowo usuwane przez Discord.",
     "error_desc": "> Coś poszło nie tak podczas usuwania wiadomości.\n> Proszę spróbować ponownie później.",
-    "invalid_input": "Nieprawidłowa ilość."
+    "invalid_input": "Nieprawidłowa ilość.",
+    "log_title": "Wiadomości wyczyszczone"
   },
   "embed": {
     "no_perms": "Brak uprawnień"
@@ -110,7 +115,10 @@
     "timed_out": "✅ | Użytkownik **{username}** otrzymał timeout na **{duration} dni**.",
     "cannot_kick_owner": "Nie możesz wyrzucić właściciela serwera.",
     "cannot_ban_owner": "Nie możesz zbanować właściciela serwera.",
-    "cannot_timeout_owner": "Nie możesz dać timeoutu właścicielowi serwera."
+    "cannot_timeout_owner": "Nie możesz dać timeoutu właścicielowi serwera.",
+    "timeout_modal_title": "Timeout użytkownika",
+    "timeout_duration_label": "Czas trwania (dni)",
+    "timeout_duration_placeholder": "np. 7"
   },
   "ticket": {
     "system_disabled_title": "System wyłączony",
@@ -417,6 +425,18 @@
     "log_action_timeout": "⏱️ Timeout ({duration})",
     "log_action_kick": "👢 Wyrzucenie",
     "log_action_ban": "🔨 Ban (trwały)",
-    "log_action_ban_timed": "🔨 Ban ({duration})"
+    "log_action_ban_timed": "🔨 Ban ({duration})",
+    "cannot_bot": "Nie możesz ostrzec bota.",
+    "cannot_self": "Nie możesz ostrzec samego siebie.",
+    "no_warns_to_remove": "{user} nie ma ostrzeżeń do usunięcia.",
+    "removed_title": "Ostrzeżenie usunięte",
+    "removed_desc": "Ostatnie ostrzeżenie dla **{user}** zostało usunięte.",
+    "remaining": "Pozostałe ostrzeżenia",
+    "history_title": "Historia ostrzeżeń – {user}",
+    "history_none": "Ten użytkownik nie ma ostrzeżeń.",
+    "total": "Łącznie: {count}",
+    "no_warns_to_clear": "{user} nie ma ostrzeżeń do wyczyszczenia.",
+    "cleared_title": "Ostrzeżenia wyczyszczone",
+    "cleared_desc": "Wyczyszczono **{count}** ostrzeżenie(a) dla **{user}**."
   }
 }
